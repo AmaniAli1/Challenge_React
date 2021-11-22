@@ -14,20 +14,20 @@ const voiture = [
     Marque: "Mercedes",
     Couleur: "Noir",
     Prix: "120 mille $",
-    Imgg: { mercedes },
+    Imgg: mercedes,
   },
   {
     Marque: "Ford",
     Couleur: "gris",
     Prix: "40 mille $",
-    Imgg: { ford },
+    Imgg: ford,
   },
-  { Marque: "BMW", Couleur: "Rouge", Prix: "80 mille $ ", Imgg: { bm } },
+  { Marque: "BMW", Couleur: "Rouge", Prix: "80 mille $ ", Imgg: bm },
   {
     Marque: "Citroen",
     Couleur: "Blanc",
     Prix: "50 mille $",
-    Imgg: { citroen },
+    Imgg: citroen,
   },
 ];
 // component qui contient la liste des voitures

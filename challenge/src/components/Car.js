@@ -6,7 +6,12 @@ function Car(props) {
     <div className="cardOfCars">
       {/* Cards OF CARS*/}
       <Card style={{ width: "18rem", backgroundColor: "gainsboro" }}>
-        <Card.Img variant="top" src={props.children.Imgg} alt="photo of Car" />
+        <Card.Img
+          variant="top"
+          src={props.children.Imgg}
+          alt="photo of Car"
+          height="200px"
+        />
         <Card.Body>
           <Card.Title></Card.Title>
           <div style={{ textAlign: "center" }}>
